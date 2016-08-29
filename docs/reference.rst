@@ -334,7 +334,7 @@ necessary.
 ``(+ i (if x (foo) (bar)))``
     ``i + (x ? foo() : bar());``
 ``(if x (foo) (bar))``
-    ````
+    `` ``
 
     ::
 
@@ -745,7 +745,7 @@ The translation of ``PROGN`` depends on whether it is found in a
 statement or expression context:
 
 ``(progn (blorg i) (blafoo i))``
-    ````
+    `` ``
 
     ::
 
@@ -900,7 +900,7 @@ are compiled either into statements or expressions, depending on the
 context:
 
 ``(cond ((= x 1) (+ x (if (foo y) 2 3))))``
-    ````
+    `` ``
 
     ::
 
